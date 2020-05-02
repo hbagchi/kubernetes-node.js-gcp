@@ -1,0 +1,13 @@
+{
+  "name": "order_service",
+  "version": "1.0.0",
+  "description": "Order Service to work with customer orders",
+  "main": "app.js",
+  "author": "hbagchi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}

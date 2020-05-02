@@ -1,0 +1,13 @@
+{
+  "name": "catalog_service",
+  "version": "1.0.0",
+  "description": "Catalog Service to work with products",
+  "main": "app.js",
+  "author": "hbagchi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}
