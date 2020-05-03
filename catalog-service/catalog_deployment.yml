@@ -13,7 +13,7 @@ spec:
         app: catalog
     spec:
       containers:
-      - image: catalog:1.0
+      - image: gcr.io/mineral-effect-254613/catalog-image:v1
         imagePullPolicy: IfNotPresent
         name: catalog
         ports:

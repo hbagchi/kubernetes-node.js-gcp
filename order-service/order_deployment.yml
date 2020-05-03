@@ -13,7 +13,7 @@ spec:
         app: order
     spec:
       containers:
-      - image: order:1.0
+      - image: gcr.io/mineral-effect-254613/order-image:v1
         imagePullPolicy: IfNotPresent
         name: order
         ports:
