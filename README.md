@@ -56,7 +56,7 @@ Please set environment variable **PROJECT_ID** to your GCP project name
 6. Create a kubernetes cluster and connect to it from the command line. 
 
    ```
-   gcloud container clusters create [cluster_name] --zone [zone[] --machine-type g1-small
+   gcloud container clusters create [cluster_name] --zone [zone] --machine-type g1-small
    gcloud container clusters get-credentials [cluster_name] --zone [zone]
    ```
 
