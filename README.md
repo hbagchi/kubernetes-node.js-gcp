@@ -62,7 +62,8 @@ Please set environment variable **PROJECT_ID** to your GCP project name
 
    You can also create this cluster from the Google Cloud Console. I have used 'g1-small' machines. Other larger machine type is also fine.
 
-7. Deploy the catalog image v1 version to GCP kubernetes cluster. Your current directory should be 'catalog-service/'. Verify the image path in the yaml file.
+7. Deploy the catalog image v1 version to GCP kubernetes cluster. Your current directory should be 'catalog-service/'. 
+   Edit the image path in the yaml file to reflect your images.
 
    ```
    kubectl apply -f catalog_deployment.yml
