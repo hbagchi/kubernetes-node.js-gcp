@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: catalog-deploy
+  name: catalog
 spec:
   replicas: 2
   selector:
@@ -13,7 +13,7 @@ spec:
         app: catalog
     spec:
       containers:
-        - image: gcr.io/mineral-effect-254613/catalog-image:v1
+        - image: gcr.io/mineral-effect-254613/catalog-image:v2
           imagePullPolicy: Always
           name: catalog
           ports:
@@ -24,4 +24,4 @@ spec:
               cpu: "250m"
             limits:
               memory: "128Mi"
-              cpu: "500m"
+              cpu: "250m"
